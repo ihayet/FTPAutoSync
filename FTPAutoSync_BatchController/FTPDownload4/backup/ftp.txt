@@ -1,0 +1,9 @@
+open 10.220.20.25
+anonymous
+abc
+cd ./
+dir
+lcd 
+hash
+recv 
+bye

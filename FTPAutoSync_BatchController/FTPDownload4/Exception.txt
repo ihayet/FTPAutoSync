@@ -1,0 +1,6 @@
+The underlying connection was closed: An unexpected error occurred on a receive.	- File was properly download, but												  some extra occupied memory 													  (mysterious) causes the 													  exception. So, it is safe to 													  exit the current level of copy 												  instance.
+
+Inside Create Connection - Exception: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+
+
+The specified path, file name, or both are too long.

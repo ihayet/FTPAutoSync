@@ -1,0 +1,17 @@
+TITLE MyFirstBatchFile
+echo OFF
+echo Do you know what this is? It's my first batch file.
+set folderName=%1
+set fileName=%2
+set destinationPath=%3
+echo open 10.220.20.25>ftp.txt
+echo anonymous>>ftp.txt
+echo abc>>ftp.txt
+echo cd ./%folderName%>>ftp.txt
+echo dir>>ftp.txt
+echo lcd %destinationPath%>>ftp.txt
+echo hash>>ftp.txt
+echo recv %fileName%>>ftp.txt
+echo bye>>ftp.txt
+ftp -s:ftp.txt
+del ftp.txt

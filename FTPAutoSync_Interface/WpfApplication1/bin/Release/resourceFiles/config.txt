@@ -1,0 +1,5 @@
+ftp://10.220.20.25/
+True
+3
+anonymous
+abc@abc.com
